@@ -5,7 +5,7 @@ const userData = JSON.parse(fs.readFileSync('./userData.json', 'utf8'));
 var Canvas = require('canvas')
 var jimp = require('jimp')
 const moment = require('moment');
-const pretty = require('pretty-ms');
+
 const rn = require('random-number');
 let done = {};
 var prefix = "!>"
